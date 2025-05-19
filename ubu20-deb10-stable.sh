@@ -271,7 +271,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/ovva123/Autoscript/GM/Register"
+izinsc="https://github.com/shakboss/jkkjkkkjkhkhkkhkkkhkhkhk/blob/GM/Register"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -327,7 +327,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <b>VALLSTORE࿐</b>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/+6282300115583"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"Mod By Shakboss"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
